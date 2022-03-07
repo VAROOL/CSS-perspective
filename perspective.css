@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.anaelement{
+    position: relative;
+    left: 400px;
+    top: 170px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid blueviolet;
+    -webkit-box-shadow: -4px 2px 8px 5px;
+    -moz-box-shadow: -4px 2px 8px 5px;
+    -o-box-shadow: -4px 2px 8px 5px;
+    -ms-box-shadow: -4px 2px 8px 5px;
+    box-shadow: -4px 2px 8px 5px;
+    -webkit-perspective: 180px;
+    -moz-perspective: 180px;
+    -o-perspective: 180px;
+    -ms-perspective: 180px;
+    perspective: 180px;
+    background-color: blueviolet;
+}
+.altelement{
+    position: absolute;
+    left: 85px;
+    top: 70px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: yellow;
+    -webkit-box-shadow: 20px 20px 40px 10px;
+    -moz-box-shadow: 20px 20px 40px 10px;
+    -o-box-shadow: 20px 20px 40px 10px;
+    -ms-box-shadow: 20px 20px 40px 10px;
+    box-shadow: 20px 20px 40px 10px;
+    -webkit-transform: rotateY(45deg);
+    -moz-transform: rotateY(45deg);
+    -o-transform: rotateY(45deg);
+    -ms-transform: rotateY(45deg);
+    transform: rotateY(45deg);
+}
